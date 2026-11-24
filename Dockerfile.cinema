@@ -1,0 +1,9 @@
+# Publicação da experiência cinematográfica validada, sem npm/build.
+# No EasyPanel, selecione este arquivo como Dockerfile e exponha porta 80.
+FROM nginx:1.27-alpine
+COPY nginx.cinema.conf /etc/nginx/conf.d/default.conf
+COPY public/cinema/ /usr/share/nginx/html/
+COPY public/demos/ /usr/share/nginx/html/demos/
+COPY public/favicon.png /usr/share/nginx/html/favicon.png
+COPY public/og-rs-digital-lab.jpg /usr/share/nginx/html/og-rs-digital-lab.jpg
+EXPOSE 80

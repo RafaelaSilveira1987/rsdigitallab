@@ -1,0 +1,7 @@
+node_modules
+.output
+.tanstack
+.vinxi
+.git
+*.log
+preview-temporary.html

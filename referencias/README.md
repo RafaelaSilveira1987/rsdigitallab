@@ -1,0 +1,1 @@
+Arquivo `index-original-lovable.tsx.txt` contém a página original recebida no ZIP do Lovable, preservada para comparação. Todo o restante do projeto React e as seis demonstrações permaneceram no pacote.
